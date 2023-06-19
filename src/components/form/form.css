@@ -1,0 +1,46 @@
+.form-container {    
+    height : 100vh;
+    background : black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-container form {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.form-container form label {
+    color : white
+}
+
+.form-container form input {
+    width: 200%;
+    padding : 5px;
+    border-radius: 10px;
+    margin-bottom : 10px;
+    outline : none
+}
+
+.form-container form button {
+    background: blue;
+    color : white;
+    padding : 10px 24px;
+    border-radius: 10px;
+    font-size: 14px;
+    
+}
+
+.form-container form p {
+    color : red
+}
+
+.form-container form .form-control {
+    margin-bottom: 1%;
+}
+
+h2{
+    color : white
+}
